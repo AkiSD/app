@@ -1,6 +1,6 @@
-*{
-    margin: 0;
-    padding: 0;
+* {
+    margin    : 0;
+    padding   : 0;
     box-sizing: border-box;
 }
 
@@ -21,30 +21,31 @@ ul {
 
 .title {
     text-transform: uppercase;
-    position: relative;
-    font-size: 20px;
-    color: @font-color;
-    margin-bottom: 61px;
-    text-align: center;
-    font-weight: 700;
+    position      : relative;
+    font-size     : 20px;
+    color         : @font-color;
+    margin-bottom : 61px;
+    text-align    : center;
+    font-weight   : 700;
+
     &::after {
-        content: "";
-        position: absolute;
-        width: 50px;
-        height: 2px;
+        content   : "";
+        position  : absolute;
+        width     : 50px;
+        height    : 2px;
         background: @font-color;
-        left: 50%;
-        transform: translateX(-50%);
-        top: 30px;
+        left      : 50%;
+        transform : translateX(-50%);
+        top       : 30px;
     }
 }
 
 .subtitle {
-    text-align: center;
-    color: @font-color;
-    font-family: 'Roboto Slab';
-    font-weight: 400;
-    font-size: 16px;
+    text-align   : center;
+    color        : @font-color;
+    font-family  : 'Roboto Slab';
+    font-weight  : 400;
+    font-size    : 16px;
     margin-bottom: 70px;
 }
 
@@ -57,3 +58,7 @@ section {
 @import './header.less';
 @import './services.less';
 @import './about.less';
+@import './works.less';
+@import './blog.less';
+@import './clients.less';
+@import './contact.less';
